@@ -1,0 +1,33 @@
+
+.container{
+  width: 100%;
+  background-color: bisque;
+  border: 1px solid teal;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+header img{
+  width: 96px;
+  height: 31px;
+}
+.row{
+  display: flex;
+  list-style: none;
+}
+.row a{
+  padding-left: 10px;/* 要注意詢問   */
+  text-decoration: none;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+
+.button{
+  margin-right: 10px;
+}
